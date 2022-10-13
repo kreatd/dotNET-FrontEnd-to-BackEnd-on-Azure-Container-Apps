@@ -3,12 +3,12 @@ name: Build and deploy .NET application to Azure Container Apps
 on:
   push:
     branches:
-    - deploy
+    - deploy2
     
 env:
   
   # alphanumeric string under 14 characters
-  RESOURCE_GROUP_NAME: danstore
+  RESOURCE_GROUP_NAME: dan2store
 
   # specify your preferred region
   REGION: eastus
