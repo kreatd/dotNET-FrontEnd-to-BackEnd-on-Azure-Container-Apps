@@ -3,7 +3,7 @@ name: Build and deploy .NET application to Azure Container Apps
 on:
   push:
     branches:
-    - deploy10
+    - deploy66
     
 env:
   
@@ -11,7 +11,7 @@ env:
   RESOURCE_GROUP_NAME: dan10store
 
   # specify your preferred region
-  REGION: westeurope
+  REGION: australiaeast
 
 jobs:
   build:
