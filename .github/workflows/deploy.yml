@@ -3,15 +3,15 @@ name: Build and deploy .NET application to Azure Container Apps
 on:
   push:
     branches:
-    - deploy5
+    - deploy6
     
 env:
   
   # alphanumeric string under 14 characters
-  RESOURCE_GROUP_NAME: dan5store
+  RESOURCE_GROUP_NAME: dan6store
 
   # specify your preferred region
-  REGION: brazil
+  REGION: northeurope
 
 jobs:
   build:
